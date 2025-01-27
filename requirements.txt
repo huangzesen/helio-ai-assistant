@@ -1,0 +1,9 @@
+Flask==2.0.1
+requests
+numpy
+python-dotenv
+transformers
+torch
+langchain
+langchain-ollama
+unittest

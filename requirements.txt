@@ -3,7 +3,7 @@ requests
 numpy
 python-dotenv
 transformers
-# torch
+torch
 langchain
 langchain-ollama
 unittest

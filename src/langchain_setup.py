@@ -6,7 +6,7 @@ from langchain.prompts import PromptTemplate
 
 class ClassifierChain(LLMChain):
     def __init__(self):
-        llm = OllamaLLM(model="deepseek-r1:1.5b")
+        llm = OllamaLLM(model="deepseek-r1:7b")
         prompt_template = PromptTemplate(
             input_variables=["query"],
             template=(
